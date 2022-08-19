@@ -1,3 +1,4 @@
+[Discussion Post (created on 18/7/2022 at 20:7)](https://leetcode.com/problems/rotate-array/discuss/2446791/Python-Solution)  
 <h2>  Rotate Array</h2><hr><div><p>Given an array, rotate the array to the right by <code>k</code> steps, where <code>k</code> is non-negative.</p>
 
 <p>&nbsp;</p>
