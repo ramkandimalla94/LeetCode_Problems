@@ -4,6 +4,8 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         #print (nums[-k:]+nums[:k])
+        nums_len= len(nums)
+        k = k %  nums_len if k >= nums_len else k
         
         for i in range(k):
             #print(nums)
