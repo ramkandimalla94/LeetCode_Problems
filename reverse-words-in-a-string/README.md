@@ -1,3 +1,4 @@
+[Discussion Post (created on 18/7/2022 at 21:25)](https://leetcode.com/problems/reverse-words-in-a-string/discuss/2446906/Python-Solution)  
 <h2>  Reverse Words in a String</h2><hr><div><p>Given an input string <code>s</code>, reverse the order of the <strong>words</strong>.</p>
 
 <p>A <strong>word</strong> is defined as a sequence of non-space characters. The <strong>words</strong> in <code>s</code> will be separated by at least one space.</p>
