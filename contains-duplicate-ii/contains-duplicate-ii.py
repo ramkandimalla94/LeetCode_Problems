@@ -11,17 +11,18 @@ class Solution(object):
         for i in range(len(nums)):
             
             try:
-                
+                if abs(my_dict[nums[i]][-1] - i) <= k:
+                    return True
                 my_dict[nums[i]].append(i)
             except:
                 my_dict[nums[i]] = [i]
         #print(my_dict)    
         
-        for values in my_dict.values():
+#         for values in my_dict.values():
             
-            for i in range(len(values)-1):
-                if abs(values[i]-values[i+1]) <=k:
-                    return True
+#             for i in range(len(values)-1):
+#                 if abs(values[i]-values[i+1]) <=k:
+#                     return True
 #             if len(values)>1:
 #                 l_iter = iter(values) 
                 
