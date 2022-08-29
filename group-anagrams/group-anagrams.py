@@ -23,9 +23,7 @@ class Solution(object):
         dict2 = defaultdict(list)
         
         for k,v in dict_vectors.items():
-            
-            #print(k,v)
-            
+
             if len(v)>1:
                 
                 dict2[str(v[0])].extend([k]*len(v))
